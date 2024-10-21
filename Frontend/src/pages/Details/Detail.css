@@ -1,0 +1,152 @@
+.about {
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto;
+  font-family: cursive;
+  line-height: 1.6;
+}
+
+.about-image {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.abouta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-image img {
+  height: 400px;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.heading-main h1, h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.heading-main p {
+  color: rgb(5, 0, 0);
+  text-align: center;
+}
+
+.mission {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.mission-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.mission img {
+  height: 400px;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.choose, .Explore {
+  text-align: center;
+}
+
+.about h2 {
+  color: rgb(0, 0, 0);
+}
+
+.about p, .about ul {
+  margin-bottom: 20px;
+}
+
+.about ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about ul li {
+  margin-bottom: 10px;
+}
+
+.Explore-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.spiritual, .adventure, .culture, .nature {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Explore-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 20px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .mission {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .mission img, .about-image img {
+    height: auto;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .Explore-image {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Explore-image img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .about h2, .heading-main h1, .heading-main h2 {
+    font-size: 1.5rem;
+  }
+
+  .about p, .mission-content p, .about ul li {
+    font-size: 1rem;
+  }
+}

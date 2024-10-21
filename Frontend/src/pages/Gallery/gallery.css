@@ -1,0 +1,265 @@
+.Ab{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.a, .b, .c, .d, .e{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.HDwar{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.HDwar  img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Cave img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.PGround img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.GangaArti img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    
+}
+.a h3{
+    text-align: center;
+}
+.b{
+    display: flex;
+    
+    
+    
+}
+.Ntemple  img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Dwarahat img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Jhula img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Orchards img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    
+}
+.b h3{
+    text-align: center;
+}
+.Kempty  img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Peak img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Auli img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Kasaar img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    
+}
+.c h3{
+    text-align: center;
+}
+.K_nath  img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.B_nath img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Ganga img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Yamuna img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    
+}
+.d h3{
+    text-align: center;
+}
+.Dhari {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.Dhari  img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Almora img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Surkanda img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Mansa img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    
+}
+.Dham img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+.Rudraprayag img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    
+}
+.e h3{
+    text-align: center;
+}
+.eclass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+}
+.MyHeading{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.eclass h3{
+    text-align: center;
+}
+@media  screen and (max-width:768px) {
+    .a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    
+}
+@media  screen and (max-width:768px) {
+    .b{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    
+}
+@media  screen and (max-width:768px) {
+    .c{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    
+}
+@media  screen and (max-width:768px) {
+    .d{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    
+}
+@media  screen and (max-width:768px) {
+    .e{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    
+}
+@media  screen and (max-width:768px) {
+    .eclass{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    
+}
